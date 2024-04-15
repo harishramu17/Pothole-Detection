@@ -5,7 +5,6 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-
 # Set up paths and load the model
 model_path = "F:/Harish/College/Project/Pothole Detection/resnet.h5"
 model = load_model(model_path)
